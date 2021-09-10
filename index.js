@@ -3,5 +3,6 @@ const { countchars, maxchar } = require("./countingSort");
 const removeDuplicate = require("./duplicateRemove");
 const countDisimilarChars = require("./countdisimilarchars");
 const fabonacciSeries = require("./fabonacci");
+const findFactorial = require("./factorial");
 
-console.log(fabonacciSeries());
+console.log(findFactorial(4));

@@ -1,3 +1,5 @@
 const bubbleSort = require("./bubbleSort");
+const { countchars, maxchar } = require("./countingSort");
+const removeDuplicate = require("./duplicateRemove");
 
-console.log(bubbleSort([3, 1, 2, 1]));
+console.log(removeDuplicate([1, 2, 2, 2, 3, 4, 1]));

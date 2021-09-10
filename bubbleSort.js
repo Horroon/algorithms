@@ -1,4 +1,5 @@
 function bubbleSort(numberarry) {
+  //Hint: input = [1,2,1,1,3,2,1,2,2]
   let done = false;
   while (!done) {
     done = true;

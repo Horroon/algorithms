@@ -5,10 +5,10 @@
 // const fabonacciSeries = require("./fabonacci");
 // const findFactorial = require("./factorial");
 // const sameStrings = require("./bothStringEqual");
-const findReapeators = require("./repeatorsarry");
+const findRepeators = require("./repeatorsarry");
 
 console.log(
-  findReapeators([
+  findRepeators([
     1, 0, 100, 10, 5, -1, 100, 5, 0, 200, 7, 3445, 26, 26, 26, 100, 0, 2, -1,
     -1, -1, 2, 11,
   ])

@@ -9,5 +9,5 @@ const {
   countdisimilarchars,
   countingSort,
 } = require("./string/index");
-
+//test any method here
 console.log(removeDuplicate([1, 2, 2, 3, 4, 3, 5, 6, 4, 4]));

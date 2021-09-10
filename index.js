@@ -1,5 +1,6 @@
 const bubbleSort = require("./bubbleSort");
 const { countchars, maxchar } = require("./countingSort");
 const removeDuplicate = require("./duplicateRemove");
+const countDisimilarChars = require("./countdisimilarchars");
 
-console.log(removeDuplicate([1, 2, 2, 2, 3, 4, 1]));
+console.log(countDisimilarChars("2173896", "223379600"));

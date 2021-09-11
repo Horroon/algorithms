@@ -9,5 +9,6 @@ const {
   countdisimilarchars,
   countingSort,
 } = require("./string/index");
+const { combinationSum } = require("./sets/index");
 //test any method here
-console.log(bothStringEqual("Army", "Mary"));
+console.log(combinationSum([1, 2, 3, 4, 5], 8));

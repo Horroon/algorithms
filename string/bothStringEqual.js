@@ -8,12 +8,12 @@ function areStringsHavingSameChars(input1, input2) {
       return isSame;
     } else {
       const samechars = [];
-      for (let i = 0; i <= input1.length; i++) {
-        if (input1.includes(input2[i])) {
-          samechars.push(input2[i]);
+      for (let i = 0; i <= val1.length; i++) {
+        if (val1.includes(val2[i])) {
+          samechars.push(val2[i]);
         }
       }
-      isSame = samechars.length === input1.length;
+      isSame = samechars.length === val1.length;
       return isSame;
     }
   } else {

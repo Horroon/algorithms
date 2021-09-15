@@ -24,6 +24,7 @@ function maxchar(input) {
 }
 
 function secondMax(input) {
+  //input: {a: 1, b: 1, c: 3, d: 2}
   let maxchar = null;
   let secondmaxchar = null;
   for (let char in input) {

@@ -22,4 +22,20 @@ function maxchar(input) {
   }
   return maxchar;
 }
-module.exports = { countchars, maxchar };
+
+function secondMax(input) {
+  let maxchar = null;
+  let secondmaxchar = null;
+  for (let char in input) {
+    maxchar = maxchar ? maxchar : char;
+    secondmaxchar = secondmaxchar ? secondmaxchar : char;
+    if (input[char] > input[maxchar]) {
+      maxchar = char;
+    }
+    if (input[secondmaxchar] < input[char] < input[maxchar]) {
+      secondmaxchar = char;
+    }
+  }
+  return { maxchar, secondmaxchar };
+}
+module.exports = { countchars, maxchar, secondMax };

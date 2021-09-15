@@ -11,4 +11,4 @@ const {
 } = require("./string/index");
 const { combinationSum } = require("./sets/index");
 //test any method here
-console.log(combinationSum([1, 2, 3, 4, 5], 8));
+console.log(countingSort.secondMax({ a: 2, b: 3, c: 5, d: 4 }));
